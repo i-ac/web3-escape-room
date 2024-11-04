@@ -8,6 +8,11 @@
     border: none;
 }
 
+.correct{
+    background-color: lightgreen;
+    border: none;
+}
+
 .math{
     font-size: 30px;
 }
