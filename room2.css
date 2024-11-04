@@ -1,0 +1,19 @@
+.basic__number,  .secret__number{
+    color: white;
+    font-size: 90px;
+    margin: .5rem;
+  }
+  .secret__number:hover{
+    color: gold;
+    border: dashed 2px gold;
+  }
+  .basic__number:hover{
+    color: red;
+  }
+  .numbers{
+    display: flex;
+    align-items: center;
+    margin: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
