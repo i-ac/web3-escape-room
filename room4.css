@@ -1,0 +1,13 @@
+.sums{
+    background-color: lightblue;
+    border: none;
+}
+
+.result{
+    background-color: lightcoral;
+    border: none;
+}
+
+.math{
+    font-size: 30px;
+}
