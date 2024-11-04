@@ -3,12 +3,13 @@ img {
     height: auto;
 }
 
-body {
+/* body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
+} */
 
-ul {
+.boxes {
     display: grid;
     grid-template-columns: repeat(3, minmax(20rem,30rem));
 }
