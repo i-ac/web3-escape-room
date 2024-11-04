@@ -1,0 +1,38 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(20rem,30rem));
+}
+
+img{
+    opacity: 1;
+}
+
+/* .wrong {
+   background-color: black;
+} */
+
+.loser:hover {
+    background-color: red;
+
+    img{
+        opacity:0;
+    }
+}
+
+/* right {
+    background-color: white;
+} */
+
+.hidden{
+    display:none;
+}
